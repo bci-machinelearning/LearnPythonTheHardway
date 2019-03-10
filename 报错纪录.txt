@@ -9,3 +9,7 @@
 \r和\n：
 \r为回车符，在Python中会将输出光标置到行首
 print"12345\r678" 输出为 '67845'
+
+练习15：文件
+输入了不存在的文件名
+IOError: [Errno 2] No such file or directory: '.\\Files\\sample.txt'
