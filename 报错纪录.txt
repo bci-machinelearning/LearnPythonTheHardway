@@ -1,0 +1,11 @@
+练习8：打印
+错误输入：print formatter %('True','False','False','True')
+错误输出：'True','False','False','True'
+
+正确输入：print formatter %(True,False,False,True)
+正确输出：
+
+练习9：打印
+\r和\n：
+\r为回车符，在Python中会将输出光标置到行首
+print"12345\r678" 输出为 '67845'
